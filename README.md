@@ -16,7 +16,7 @@ The system randomly selects material, transports them to a weigh station, waits 
 - Sets up the pick/place task: objects, materials (targets)
 - Handles sampling and task-finished logic
 
-## `hello_world.py`
+## `material_mix.py`
 - Boilerplate Isaac Sim code to run a scene  
 - Handles the target sampling and switching
 
