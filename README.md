@@ -1,4 +1,4 @@
-# Material Mixer Station Logic
+# Material Mixer Simulation in Isaac Sim
 
 Automated sampling system for materials (e.g., **Iron**, **Brass**, and **Aluminum**) using **RRT-based path planning**.  
 The system randomly selects material, transports them to a weigh station, waits for measurement (2 seconds), then returns material to original positions (object turns green after it has been sampled).
