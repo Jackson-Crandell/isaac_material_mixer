@@ -1,7 +1,7 @@
 # Material Mixer Station Logic
 
 Automated sampling system for materials (e.g., **Iron**, **Brass**, and **Aluminum**) using **RRT-based path planning**.  
-The system randomly selects targets, transports them to a weigh station, waits for measurement (2 seconds), then returns them to original positions (they turn green after they've been sampled).
+The system randomly selects material, transports them to a weigh station, waits for measurement (2 seconds), then returns material to original positions (object turns green after it has been sampled).
 
 *Note: It runs a bit slow as it is NOT using CUDA.*
 
