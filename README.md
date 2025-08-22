@@ -5,6 +5,10 @@ The system randomly selects material, transports them to a weigh station, waits 
 
 *Note: It runs a bit slow as it is NOT using CUDA.*
 
+## Current Progress:
+This prototype was built to refamiliarize myself with Isaac Sim and evaluate it for workcell prototyping (so much has changed over the past few years). It currently uses Isaac Sim’s built-in motion planners to execute multiple pick-and-place tasks. The current implementation was more for proof of concept and I didn't take time to optimize or refactor the code. MoveIt 2 integration is next on the roadmap. Please see sections below for potential applications of this simulator. 
+
+
 ---
 
 ## Short Demo
